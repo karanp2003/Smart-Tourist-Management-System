@@ -1,0 +1,40 @@
+export enum UserRole {
+  TOURIST = 'TOURIST',
+  ADMIN = 'ADMIN',
+}
+
+export enum ZoneType {
+  SAFE = 'SAFE',
+  CAUTION = 'CAUTION',
+  HIGH_RISK = 'HIGH_RISK',
+  RESTRICTED = 'RESTRICTED',
+}
+
+export enum IncidentStatus {
+  SUBMITTED = 'SUBMITTED',
+  UNDER_REVIEW = 'UNDER_REVIEW',
+  IN_PROGRESS = 'IN_PROGRESS',
+  RESOLVED = 'RESOLVED',
+  CLOSED = 'CLOSED',
+}
+
+export enum SosStatus {
+  NEW = 'NEW',
+  ACKNOWLEDGED = 'ACKNOWLEDGED',
+  ASSISTANCE_IN_PROGRESS = 'ASSISTANCE_IN_PROGRESS',
+  RESOLVED = 'RESOLVED',
+}
+
+export enum VerificationStatus {
+  PENDING = 'PENDING',
+  VERIFIED = 'VERIFIED',
+  REJECTED = 'REJECTED',
+  BLOCKCHAIN_PENDING = 'BLOCKCHAIN_PENDING',
+}
+
+export enum SeverityLevel {
+  LOW = 'LOW',
+  MEDIUM = 'MEDIUM',
+  HIGH = 'HIGH',
+  CRITICAL = 'CRITICAL',
+}
